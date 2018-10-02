@@ -9,6 +9,7 @@ module.exports = {
     path: path.join(__dirname, "../dist"),
     filename: "index.js"
   },
+  target: 'electron-main',
   module: {
     rules: [{
       test: /\.tsx?$/,
